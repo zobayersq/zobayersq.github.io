@@ -1,4 +1,4 @@
-baseURL = "https://zobayersq.netlify.app/"
+baseURL = "https://zobayersq.github.io/"
 theme = ["LoveIt"]
 title = "Zobayer's Blog"
 
@@ -473,5 +473,10 @@ isHTML = false
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 page = ["HTML", "MarkDown"]
+
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 section = ["HTML", "RSS"]
 taxonomy = ["HTML", "RSS"]
